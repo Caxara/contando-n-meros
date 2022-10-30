@@ -13,11 +13,11 @@ header {
 
 section {
     background: rgba(221, 250, 3, 0.863);
-    border-radius: 10px;
+    border-radius: 50px;
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 15px 15px 5px rgba(237, 36, 5, 0.926);
+    box-shadow: 1px 15px 5px rgba(32, 237, 5, 0.926);
 }
 #txtIni{
     background-color: rgba(0, 0, 0, 0.349);
