@@ -16,7 +16,21 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 15px 15px 10px rgb(0, 0, 0, 0.266);
-    
+}
+#txtIni{
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 5px;
+    box-shadow: 0px 4px 2px rgb(0, 0, 0, 0.266);
+}
+#txtfim{
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 5px;
+    box-shadow: 0px 4px 2px rgb(0, 0, 0, 0.266);
+}
+#txtpass{
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 5px;
+    box-shadow: 0px 4px 2px rgb(0, 0, 0, 0.266);
 }
 
 #botaoContar {
