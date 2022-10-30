@@ -1,0 +1,31 @@
+
+body {
+    background: rgb(10, 214, 233);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: antiquewhite;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 15px 15px 10px rgb(0, 0, 0, 0.266);
+    
+}
+
+#botaoContar {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    margin-top: 30px;
+}
