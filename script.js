@@ -19,12 +19,12 @@ function contar() {
         }
         if(i > f){
             for(let c = i; c >= f; c -= p){
-                resultado.innerHTML += `${c} - `
+                resultado.innerHTML += `${c}, `
             }
         } else {
             for(let c = i; c <= f; c += p){
-                resultado.innerHTML += `${c} - `
+                resultado.innerHTML += `${c}, `
             }
         }
-    } resultado.innerHTML += `\u{2705}`
+    } resultado.innerHTML += `.`
 }
