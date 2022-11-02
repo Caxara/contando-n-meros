@@ -108,20 +108,12 @@ section {
     display: flex;
     justify-content: center;
 }
-footer {
-    text-align: center;
-    font-style: italic;
-    color: white;
-    margin-top: 30px;
-}
-
-*{
+* {
     scrollbar-width: thin;
     scrollbar-color: #e228d8 #070d12;
 }
 
 /* Works on Chrome, Edge, and Safari */
-
 *::-webkit-scrollbar {
     width: 12px;
 }
@@ -131,7 +123,14 @@ footer {
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #f2cd11;
+    background-color: #e228d8;
     border-radius: 20px;
     border: 3px solid #070d12;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    margin-top: 30px;
 }
