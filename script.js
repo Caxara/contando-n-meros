@@ -3,7 +3,6 @@ function contar() {
     let fim = document.getElementById('txtfim')
     let passo = document.getElementById('txtpass')
     let resultado = document.getElementById('res')
-    let flista = document.getElementById('flista')
 
     if(inicio.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
         resultado.innerHTML += `Impossível contar!`
