@@ -20,7 +20,7 @@ section {
     width: 250px;
     height: 525px;
     margin: auto;
-    box-shadow: 1px 15px 2px rgb(68, 69, 68);
+    box-shadow: 2px 15px 2px rgb(68, 69, 68);
 }
 .botao{
     display: flex;
@@ -129,6 +129,12 @@ section {
 footer {
     text-align: center;
     font-style: italic;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 30px;
+    background-color: darkgoldenrod;
+    border-radius: 20px;
+    width: 100px;
+    margin: auto;
+    margin-top: 35px;
+    box-shadow: -2px -2px 1px rgb(85, 84, 84);
 }
