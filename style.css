@@ -20,7 +20,7 @@ section {
     width: 250px;
     height: 525px;
     margin: auto;
-    box-shadow: 4px 15px 2px rgb(93, 67, 2);
+    box-shadow: 4px 15px 2px rgb(62, 62, 62);
 }
 .botao{
     display: flex;
@@ -105,7 +105,16 @@ section {
 #simbols{
     display: flex;
     justify-content: center;
-}/*
+    margin: auto;
+    border-radius: 50px; 
+    width: 100px;
+    box-shadow: 3px 3px 2px rgb(93, 67, 2);
+}
+#simbols:hover{
+    background-color: rgb(255, 167, 15);
+}
+
+/*
 * {
     scrollbar-width: thin;
     scrollbar-color: #e228d8 #070d12;
@@ -137,4 +146,7 @@ footer {
     margin: auto;
     margin-top: 35px;
     box-shadow: 1px 3px 1px rgb(93, 67, 2);
+}
+footer:hover{
+    background-color: rgb(249, 175, 46);
 }
